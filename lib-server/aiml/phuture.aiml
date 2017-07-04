@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category><pattern>GIVEN * TO BE <set>number</set> SAY ^</pattern>
+<template><srai>SOUND <star/></srai></template></category>
+</aiml>
