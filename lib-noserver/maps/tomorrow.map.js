@@ -1,0 +1,2 @@
+var data={"Saturday": "Sunday", "Friday": "Saturday", "Thursday": "Friday", "Wednesday": "Thursday", "Tuesday": "Wednesday", "Monday": "Tuesday", "Sunday": "Monday", "fooz": "barz"}}
+;
