@@ -1,0 +1,2 @@
+var data=["something", "anything", "any", "some", "one", "all", "a", "an", "the", "someplace", "somewhere", "someone", "something", "anyplace", "anyone", "anything", "anywhere", "fooz"]
+;
