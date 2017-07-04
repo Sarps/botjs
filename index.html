@@ -4,41 +4,32 @@
 <head>
     <title>Project Phuture</title>
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
-    <link href="css/katex.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/mktree.css" />
-    <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-1.7.1.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.js"></script>
 </head>
 <body>
-    <header>
-        <h3 style="padding:0;">Project Phuture</h3>
-    </header>
-    <section class="intro">
-        <div class="content" id="content">
-            <img src="images/plus.gif" onclick="toggleConsole()"/>
-            <ul id = "console" class="mktree" style="display:block;"/>
-            
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Welcome to BotJS by </h1>
+        <a href="http://sarps.github.io" class="ui-btn ui-icon-search ui-btn-icon-left">Sarps</a>
         </div>
-    </section>
-    <footer>
-        <a target="_blank" href="https://www.github.com/Sarps/Phuture">Project Phuture</a>; <a target="_blank" href="https://sarps.github.io">Emmanuel Oppong-Sarpong</a>, Mechanical Engineering, KNUST-Ghana
-    </footer>
+        <div data-role="main">
+            <div id='inner'/>
+        </div>
+        <div data-role="footer" data-position="fixed" data-fullscreen="true">
+            <form>
+                <input name='input' type='text' placeholder="Chat with me"/>
+            </form>
+            <p>
+                <a target="_blank" href="https://www.github.com/Sarps/Phuture">Project Phuture</a>; <a target="_blank" href="https://sarps.github.io">Emmanuel Oppong-Sarpong</a>, Mechanical Engineering, KNUST-Ghana
+            </p>
+        </div>
+    </div>
+
 </body>
-<script src="js/node.js"></script>
 <script src="js/loader.js"></script>
-<script src="js/lexer.js"></script>
-<script src="js/helper.js"></script>
-<script src="js/fractions.js"></script>
-<script src="js/term.js"></script>
-<script src="js/variable.js"></script>
-<script src="js/complex.js"></script>
-<script src="js/expressions.js"></script>
-<script src="js/equations.js"></script>
-<script src="js/parser.js"></script>
-<script src="js/algebra.js"></script>
-<script src="js/finder.js"></script>
-<script src="js/solver.js"></script>
-<script src="js/katex.min.js"></script>
-<script src="js/console.js"></script>
 <script src="js/bot.js"></script>
 <script src="js/script.js"></script>
 
