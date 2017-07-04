@@ -1,0 +1,2 @@
+var data={"": "", "chick": "female", "lady": "female", "dude": "male", "guy": "male", "gal": "female", "XY": "male", "XX": "female", "girl": "female", "boy": "male", "female": "female", "male": "male", "woman": "female", "man": "male", "fooz": "barz"}}
+;
